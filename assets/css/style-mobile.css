@@ -1,0 +1,105 @@
+@media screen and (max-width: 980px) {
+	.navbar-brand {
+		left: 10%;
+	}
+
+	.navbar-right {
+		margin-right: 10%;
+	}
+
+	.col-lg-5 {
+		margin-left: 10%;
+		width: 50%;
+		padding: 20px;
+	}
+
+	#connect {
+		padding: 20px;
+		float: right;
+		position: absolute;
+		top: 105px;
+		right: 10%;
+		width: 27%;
+	}
+	
+	#profile {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.navbar-brand {
+		left: 5%;
+	}
+
+	.navbar-right {
+		margin-right: 5%;
+	}
+
+	.col-lg-5 {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		padding: 20px;
+		clear: both;
+	}
+	
+	#connect {
+		padding: 20px;
+		float: left;
+		width: 90%;
+		position: relative;
+		left: 5%;
+		top: 20px;
+		margin-bottom: 200px;
+	}
+
+	#profile {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.navbar-brand {
+		left: 0%;
+		width: 100%;
+		text-align: center;
+	}
+
+	.navbar-right {
+		text-align: center;
+		background-color: #fff;
+		width: 100%;
+		position: absolute;
+		left: 0px;
+		margin: 0;
+		top: 80px;
+		box-shadow: 2px 0 10px #aaa;
+	}
+
+	.nav>li {
+		display: inline-block;
+	}
+
+	.nav>li>a {
+		padding: 10px 75px;
+	}
+
+	.col-lg-5 {
+		margin-top: 40px;
+	}
+
+	#row1 {
+		margin-bottom: 0px;
+	}
+
+	#profile {
+		width: 100%;
+	}
+	
+	.banner-portfolio {
+		width: 110%;
+		left: -5%;
+	}
+}
